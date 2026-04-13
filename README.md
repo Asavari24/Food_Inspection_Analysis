@@ -101,11 +101,7 @@ Hash columns: `DBA_NAME, AKA_NAME, LICENSE_NUMBER, FACILITY_TYPE, RISK_CATEGORY`
 ```
 raw_ingestion → bronze_to_silver → silver_to_gold
 ```
-
-### Job 2: `Food_Inspection_SCD2_Test` (Incremental / SCD2 Testing)
-```
-bronze_to_silver → silver_to_gold
-```
+Job 1 implements Food_Inspection_SCD2_Test` (Incremental / SCD2 Testing)
 
 Job 1 runs the complete pipeline including MERGE-based raw ingestion. Job 2 skips raw ingestion for testing SCD2 changes made directly to Bronze.
 
