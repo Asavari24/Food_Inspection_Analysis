@@ -6,10 +6,6 @@
 
 An end-to-end data engineering pipeline analyzing food inspection data from **Chicago (~308K rows, 17 columns)** and **Dallas (~79K rows, 114 columns)** using Databricks, Delta Lake, and Power BI. The project follows the **Medallion Architecture (Bronze → Silver → Gold)** with Kimball-style dimensional modeling, DQX data quality validation, SCD Type 2 change tracking, and automated pipeline orchestration.
 
-**Course:** DAMG 7370 — Designing Advanced Data Architectures for Business Intelligence  
-**University:** Northeastern University  
-**Term:** Spring 2026
-
 ## Architecture
 
 ```
